@@ -1,0 +1,87 @@
+.app_light_theme {
+    //  main color
+    --main-color: var(--green-grey-color);
+    --main-color-alt: var(--green-grey-color-alt);
+
+    //  bg color
+
+    --bg-color: var(--light-color);
+
+    //  accent color
+
+    --accent-color: var(--orange-color);
+    --accent-color-alt: var(--red-color);
+
+    //  main font color
+
+    --main-font-color: var(--black-color);
+    --inverted-font-color: var(--light-color);
+
+    // sub font color
+
+    --sub-font-color: var(--gray-color-light);
+    --sub-font-color-alt: var(--gray-color);
+
+    // input color
+
+    --input-color: var(--light-color-alt);
+    --input-color-light: var(--light-color-alt);
+    --input-color-dark: var(--light-color-alt);
+
+    //  button color
+
+    --button-color: var(--green-grey-color-alt);
+    --button-color-light: var(--green-gray-color-light);
+    --button-color-dark: var(--green-grey-color-dark);
+
+    //  specific button color
+
+    --white-dark: var(--light-color);
+    --white-dark-hover: var(--white-dark);
+    --white-dark-disabled: var(--light-color);
+    --white-dark-color: var(--main-color);
+    --white-dark-color-hover: var(--green-gray-color-light);
+    --white-dark-color-disabled: var(--button-color-dark);
+    --light-white: var(--button-color);
+    --light-white-hover: var(--button-color-light);
+    --light-white-disabled: var(--button-color-dark);
+    --light-white-color: var(--light-color);
+    --light-white-color-hover: var(--light-color);
+    --light-white-color-disabled: var(--light-color);
+    
+    //  outline color
+
+    --gray-white-outline: var(--gray-color);
+    --green-white-outline: var(--green-grey-color);
+    --green-white-outline-hover: var(--green-gray-color-light);
+    --green-white-outline-disabled: var(--button-color-dark);
+
+    //  input color
+
+    --input-bg: var(--light-color-alt);
+    --input-active-bg: var(--light-color);
+    --input-readonly-bg: var(--light-color-alt);
+
+    //  select color
+
+    --select-bg: var(--light-color-alt);
+    --select-item-bg: var(--light-color);
+    --select-item-border-bottom: var(--gray-color);
+
+    //  icon color
+
+    --icon-gray-light-white-color: var(--gray-color-light);
+
+    //  article card
+
+    --article-card-color-bg: var(--light-color-alt);
+
+    //  viewSwitcher 
+
+    --view-switcher-select-color: var(--light-color-alt);
+
+    //  tab color
+
+    --tab-color: var(--gray-color);
+    
+}

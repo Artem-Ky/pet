@@ -1,0 +1,16 @@
+
+.NavBar {
+    width: 100%;
+    height: var(--nav-bar-height);
+    background-color: var(--bg-color);
+    color: var(--main-font-color);
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

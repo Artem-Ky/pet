@@ -1,0 +1,135 @@
+.main {
+    .title,
+    .text {
+        color: var(--main-font-color);
+    }
+}
+
+.black-white {
+    .title,
+    .text {
+        color: var(--main-font-color);
+    }
+}
+
+.white {
+    .title,
+    .text {
+        color: var(--light-color);
+    }
+}
+
+.white-gray {
+    .title,
+    .text {
+        color: var(--sub-font-color-alt);
+    }
+}
+
+.gray {
+    .title,
+    .text {
+        color: var(--gray-color);
+    }
+}
+
+.gray-light {
+    .title,
+    .text {
+        color: var(--gray-color-light);
+    }
+}
+
+.error {
+    .title {
+        color: var(--accent-color);
+    }
+
+    .text {
+        color: var(--accent-color-alt);
+    }
+}
+
+.inverted {
+    .title,
+    .text {
+        color: var(--inverted-font-color);
+    }
+}
+
+.left,
+.right,
+.center {
+    display: inline-block;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.size_s {
+    .title,
+    .text {
+        font: var(--font-inter-sm-regular);
+    }
+}
+
+.size_s_bold {
+    .title,
+    .text {
+        font: var(--font-inter-sm-semibold);
+    }
+}
+
+.size_m {
+    .title,
+    .text {
+        font: var(--font-inter-md-regular);
+    }
+}
+
+.size_m_bold {
+    .title,
+    .text {
+        font: var(--font-inter-md-semibold);
+    }
+}
+
+.size_l {
+    .title,
+    .text {
+        font: var(--font-inter-lg-regular);
+    }
+}
+
+.size_l_bold {
+    .title,
+    .text {
+        font: var(--font-inter-lg-semibold);
+    }
+}
+
+.size_xl_title {
+    .title {
+        font: var(--font-tuffy-md-bold);
+    }
+}
+
+.size_xxl_title {
+    .title {
+        font: var(--font-inter-xxl-semibold)
+    }
+}
+
+.widthAuto {
+    width: auto;
+}

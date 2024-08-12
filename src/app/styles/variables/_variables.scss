@@ -1,0 +1,125 @@
+@import './media';
+
+:root {
+    // цвета
+    --green-grey-color: #24484E;
+    --green-grey-color-alt: #365B61;
+    --green-grey-color-dark: #183A40;
+    --green-gray-color-light: #40808A;
+    --light-color: #FDFDFD;
+    --light-color-alt: #F3F1F1;
+    --orange-color: #F15A3B;
+    --red-color: #C83939;
+    --red-color-light: #FB7A7A;
+    --black-color: #191919;
+    --black-color-alt: #252525;
+    --black-color-light: #424242;
+    --gray-color: #717171;
+    --gray-color-alt: #606060;
+    --gray-color-light: #929292;
+    --gray-color-dark: #454545;
+    --overlay-color: rgba(0 0 0 / 60%);
+
+    //  шрифты
+
+    /* Inter */
+
+    --font-inter-xxl-semibold: normal 600 24px/29px 'Inter', sans-serif;
+    --font-inter-lg-semibold: normal 600 16px/19.4px 'Inter', sans-serif;
+    --font-inter-lg-regular: normal 400 16px/19.4px 'Inter', sans-serif;
+    --font-inter-md-semibold: normal 600 14px/17px 'Inter', sans-serif;
+    --font-inter-md-regular: normal 400 14px/17px 'Inter', sans-serif;
+    --font-inter-sm-semibold: normal 600 12px/14.5px 'Inter', sans-serif;
+    --font-inter-sm-regular: normal 400 12px/14.5px 'Inter', sans-serif;
+
+    /* Tuffy */
+
+    --font-tuffy-md-bold: normal 700 16px/24px 'Tuffy', sans-serif;
+
+    //  компоненты
+
+    --button-height: 68px;
+    --nav-bar-height: 47px;
+    --nav-bar-padding: 22px;
+    --side-bar-width: 300px;
+    --side-bar-width-close: 55px;
+    --link-height: 38px;
+
+    //  остальное
+    
+    --border-radius-small: 7px;
+    --border-radius-sidebar: 10px;
+    --border-radius-medium: 12px;
+    --font-family-base: 'Inter', 'sans-serif';
+    --transition-duration: 0.2s;
+
+    //  кнопки
+
+    //  small
+    --button-height-s: 27px;
+    --button-width-s: 86px;
+
+    //  medium
+    --button-height-m: 30px;
+    --button-width-m: 116px;
+
+    //  large
+    --button-height-l: 35px;
+    --button-width-l: 156px;
+
+    //  инпуты
+
+    //  small
+    --input-height-s: 38px;
+    --input-width-s: 128px;
+
+    //  medium
+    --input-height-m: 38px;
+    --input-width-m: 218px;
+
+    //  large
+    --input-height-l: 41px;
+    --input-width-l: 461px;
+
+    //  avatar
+    --avatar-round-small: 16px;
+    --avatar-round-medium: 24px;
+    --avatar-round-large: 36px;
+    --avatar-square-big-height: 173px;
+    --avatar-square-big-width: 135px;
+
+    //  select
+    --select-width-small: 73px;
+    --select-width-medium: 93px;
+    --select-width-large: 113px;
+    --select-height-small: 35px;
+    --select-height-medium: 40px;
+    --select-height-large: 45px;
+
+    // skeleton 
+    --skeleton-shadow: var(--gray-color);
+    --skeleton-color: var(--gray-color-light);
+
+    // article card
+        // plate view
+    --article-card-plate-height-s: 218px;
+    --article-card-plate-width-s: 165px;
+    --article-card-plate-height-m: 270px;
+    --article-card-plate-width-m: 214px;
+    --article-card-plate-height-l: 370px;
+    --article-card-plate-width-l: 281px;
+    --article-card-plate-padding: 8px;
+
+        // list view
+    --article-card-list-height-s: 580px;
+    --article-card-list-width-s: 550px;
+    --article-card-list-height-m: 830px;
+    --article-card-list-width-m: 780px;
+    --article-card-list-height-l: 996px;
+    --article-card-list-width-l: 780px;
+    --article-card-list-padding: 24px;
+
+    //  Tab
+    --tab-height: 27px;
+
+}

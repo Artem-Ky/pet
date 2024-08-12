@@ -1,0 +1,49 @@
+.SideBar {
+    padding-block: 32px;
+    padding-inline: 10px;
+    background-color: var(--main-color);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
+    width: var(--side-bar-width);
+    font: var(--font-inter-lg-regular);
+    border-top-right-radius: var(--border-radius-sidebar);
+    border-bottom-right-radius: var(--border-radius-sidebar);
+    margin: 0;
+}
+
+.closeBtn {
+    position: absolute;
+    background-color: var(--gray-color);
+    left: 10px;
+    bottom: 10px;
+}
+
+.linksList {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:first-child) {
+        margin-top: 28px;
+    }
+
+    &:first-child {
+        margin-top: 52px;
+    }
+}
+
+.Close {
+    width: var(--side-bar-width-close);
+
+    .linksList {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+.title {
+    margin-left: 30px;
+}
+
